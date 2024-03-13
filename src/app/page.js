@@ -22,7 +22,7 @@ export default function Home() {
       />
 
       <div className="w-full h-screen">
-        <Navigation />
+        {/* <Navigation /> */}
         <RenderModel>
           <Wizard />
         </RenderModel>
