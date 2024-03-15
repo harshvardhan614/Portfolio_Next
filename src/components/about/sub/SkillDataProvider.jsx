@@ -28,10 +28,10 @@ const SkillDataProvider = ({ src, width, height, index }) => {
         >
             <Image
                 src={src}
-                width={width}
-                height={height}
+                width="60"
+                height="60"
                 alt='skill image'
-                className='cursor-pointer'
+                className='cursor-pointer object-contain'
             />
         </motion.div>
     );

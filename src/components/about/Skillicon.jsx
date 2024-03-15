@@ -22,8 +22,6 @@ import {
             <SkillDataProvider
               key={index}
               src={image.Image}
-              width={image.width}
-              height={image.height}
               index={index}
             />
           ))}
@@ -33,8 +31,6 @@ import {
             <SkillDataProvider
               key={index}
               src={image.Image}
-              width={image.width}
-              height={image.height}
               index={index}
             />
           ))}
@@ -44,8 +40,6 @@ import {
             <SkillDataProvider
               key={index}
               src={image.Image}
-              width={image.width}
-              height={image.height}
               index={index}
             />
           ))}
@@ -55,8 +49,6 @@ import {
             <SkillDataProvider
               key={index}
               src={image.Image}
-              width={image.width}
-              height={image.height}
               index={index}
             />
           ))}
@@ -66,8 +58,6 @@ import {
             <SkillDataProvider
               key={index}
               src={image.Image}
-              width={image.width}
-              height={image.height}
               index={index}
             />
           ))}
