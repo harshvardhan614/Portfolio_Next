@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import Image from 'next/image';
 
-const SkillDataProvider = ({ src, width, height, index }) => {
+const SkillDataProvider = ({ src, index, skill }) => {
     const { ref, inView } = useInView({
         triggerOnce: true
     });
@@ -28,8 +28,9 @@ const SkillDataProvider = ({ src, width, height, index }) => {
         >
             <Image
                 src={src}
-                width="60"
-                height="60"
+                width="70"
+                height="70"
+                title={skill}
                 alt='skill image'
                 className='cursor-pointer object-contain'
             />
