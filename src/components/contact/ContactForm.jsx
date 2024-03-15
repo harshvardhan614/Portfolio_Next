@@ -4,25 +4,8 @@ import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import  EarthCanvas  from '@/components/canvas/EarthCanvas';
 import Form from './Form';
+import { SlideIn } from './SlideIn';
 
-export const SlideIn = (direction, type, delay, duration) => {
-  return {
-    hidden: {
-      x: direction === "left" ? "-100%" : direction === "right" ? "100%" : 0,
-      y: direction === "up" ? "100%" : direction === "down" ? "100%" : 0,
-    },
-    show: {
-      x: 10,
-      y: 10,
-      transition: {
-        type: type,
-        delay: delay,
-        duration: duration,
-        ease: "easeOut",
-      },
-    },
-  };
-};
 
 const ContactForm = () => {
   const formRef = useRef();
