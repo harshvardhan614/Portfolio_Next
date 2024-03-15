@@ -2,7 +2,7 @@ import {
     Github,
     Home,
     Linkedin,
-    NotebookText,
+    Briefcase,
     Palette,
     Phone,
     Twitter,
@@ -22,6 +22,8 @@ import {
         return <User className="w-full h-auto" strokeWidth={1.5} />;
       case "projects":
         return <Palette className="w-full h-auto" strokeWidth={1.5} />;
+      case "work":
+        return <Briefcase className="w-full h-auto" strokeWidth={1.5} />;
       case "contact":
         return <Phone className="w-full h-auto" strokeWidth={1.5} />;
       case "github":
@@ -30,8 +32,7 @@ import {
         return <Linkedin className="w-full h-auto" strokeWidth={1.5} />;
       case "twitter":
         return <Twitter className="w-full h-auto" strokeWidth={1.5} />;
-      case "resume":
-        return <NotebookText className="w-full h-auto" strokeWidth={1.5} />;
+      
   
       default:
         return <Home className="w-full h-auto" strokeWidth={1.5} />;

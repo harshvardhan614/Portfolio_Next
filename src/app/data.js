@@ -129,6 +129,74 @@ export const BtnList = [
 //   }
 // ]
 
+export const experiences = [
+  {
+    title: "Software Developer Developer",
+    company_name: "LST Capital",
+    icon: "/lst.png",
+    iconBg: "#FFFFFF",
+    date: "January 2024 - Present",
+    points: [
+      "Built a Modern Website LSTCapital.in using React.js, TailwindCSS with 3D components for an engaging experience.",
+      "Finance Management Dashboard(In Progress): Developing with MERN Stack, Redux, Material UI.",
+      "Collaborating with cross-functional teams including designer, manager, and other developers to create high-quality Finance Managment Dashboard.",
+      "Leveraging React.js with Redux Toolkit for state management and Recharts for data visualization. Exploring       machine learning integration for predictive insights within the dashboard",
+    ],
+  },
+  {
+    title: "Co-Founder and Tech Lead",
+    company_name: "CollegeMart StartUp",
+    icon: "/collegemart.png",
+    iconBg: "#FFFFFF",
+    date: "August 2023 - October 2023",
+    points: [
+      "Built Collegemart using React Libraries, Tailwind CSS, AppScript and Redux Toolkit.",
+      "Successfully integrated the frontend with backend APIs for seamless product listings.",
+      "Introduced an interactive image observer paired with a lazy image loader, enhancing the user experience to new heights.",
+      "Enabled dynamic data fetching and filtering, simplifying product discovery for users.",
+    ],
+  },
+  {
+    title: "Frontend Developer Intern",
+    company_name: "SHARVIL Business Groups, Japan",
+    icon: "/Sharvil.jpg",
+    iconBg: "#FFFFFF",
+    date: "July 2023 - July 2023",
+    points: [
+      "Built A Japanese restaurant management system using React Libraries, Tailwind CSS and Redux Toolkit.",
+      "Successfully integrated the front end with backend APIs, and used Postman for API Testings.",
+      "Working with the team of Designers, developers and product manager to develop a comprehensive functional and user-friendly system.",
+      "Participating in code reviews and providing constructive feedback to the team.",
+    ],
+  },
+  {
+    title: "Software Developer Intern",
+    company_name: "Wictronix",
+    icon: "/Wictronix.jpg",
+    iconBg: "#FFFFFF",
+    date: "May 2023 - June 2023",
+    points: [
+      "Developing and maintaining the full-stack development for a tax consultant client, utilizing MERN Stack.",
+      "Worked with a team of six developers and developed tax management workflows for the tax consultant client.",
+      "Focused on developing user-friendly features that streamlined tax management workflows for the client.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+    ],
+  },
+  {
+    title: "Designer and Web Developer",
+    company_name: "Rectangle Technologies",
+    icon: "/rectangle.jpg",
+    iconBg: "#FFFFFF",
+    date: "Jan 2023 - Feb 2023",
+    points: [
+      "Design and develop the project using Design tools and Next JS Framework.",
+      "Collaborated with client to integrate desired UI components seamlessly and maintain consistency across the application",
+      "Implemented client-side logic, optimized website performance, and reduced loading times.",
+      "Conducted thorough testing, debugging, and continuous research to deliver optimal user experiences and stay upto date with industry best practices.",
+    ],
+  },
+];
+
 export const Frontend_skill = [
   {
     skill_name: "Html 5",
