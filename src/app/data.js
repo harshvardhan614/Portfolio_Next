@@ -204,10 +204,10 @@ export const projects = [
   },
   {
     id: 15,
-    name: "Shaatra Magazine",
+    name: "Shaastra Magazine",
     description:
       " I served the Research and Innovation Affairs Council (RIAC) as a Graphic Designer. While there, I designed the prestigious 'Shaastra 6th Edition' magazine.",
-    image: '/Shaatra.png',
+    image: '/Shaastra.png',
     link: "https://online.fliphtml5.com/yiyra/qwcp/#p=1/",
   },
   {

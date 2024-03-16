@@ -7,22 +7,31 @@ const item = {
 };
 
 const ProjectLink = motion(Link);
-const ProjectLayout = ({ name, description, date, demoLink }) => {
+const ProjectLayout = ({ name, description, image, link }) => {
   return (
     <ProjectLink
       variants={item}
-      href={demoLink}
+      href={link}
       target={"_blank"}
-      className=" text-sm md:text-base flex  items-center justify-between w-full relative rounded-lg overflow-hidden p-4 md:p-6 custom-bg"
+      className=" p-5 rounded-2xl sm:w-[320px] w-full min-h-[550px] text-sm md:text-base flex flex-col items-center relative  overflow-hidden custom-bg"
     >
-      <div className="flex items-center justify-center space-x-2">
-        <h2 className="text-foreground">{name}</h2>
-        <p className="text-muted hidden sm:inline-block">{description}</p>
+      <div className="w-full h-[200px]">
+        <img
+          src={image}
+          alt="project_image"
+          className="w-full h-full object-cover rounded-2xl"
+        />
       </div>
-      <div className="self-end flex-1 mx-2 mb-1 bg-transparent border-b border-dashed border-muted" />
-      <p className="text-muted sm:text-foreground">
-        {new Date(date).toDateString()}
-      </p>
+
+      <div className="mt-5">
+        <h2 className="text-white font-bold text-[24px]">{name}</h2>
+        <p className="text-foreground mt-3 text-[14px] text-justify">{description}</p>
+      </div>
+
+      <button className="w-full mt-5 py-4 rounded-md shadow-lg bg-background hover:bg-custom-bg hover:text-ascent border border-accent/30 border-solid hover:shadow-glass-sm backdrop-blur-sm text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 cursor-pointer capitalize" >
+        Click on Card!
+      </button>
+      
     </ProjectLink>
   );
 };
