@@ -89,6 +89,146 @@ export const projectsData = [
   },
 ];
 
+export const projects = [
+  {
+    id: 1,
+    name: "Hire Me",
+    description:
+      "Hire Me is an AI interview platform developed using the MERN stack, integrating services from Microsoft Azure, OpenAI, and Google Cloud APIs. It provides a seamless experience for conducting AI-powered interviews.",
+    image: "/HireMe.jpg",
+    link: "https://github.com/",
+  },
+  {
+    id: 2,
+    name: "LST Capital Website",
+    description:
+      "Built a Modern responsive Website LSTCapital.in using React.js, TailwindCSS with 3D components for an engaging experience. Ensured excellent SEO practices were implemented, improving website visibility and search engine rankings.",
+    image: "/lst.png",
+    link: "https://lstcapital.in/",
+  },
+  {
+    id: 3,
+    name: "Admin Dashboard",
+    description:
+      "Developed customizable admin dashboard with theming, tables, charts, calendar, and Kanban functionality. Implemented key features such as paginated orders table, filterable employees table, and editable customers table.",
+    image: '/Dashboard.jpg',
+    link: "https://syncfusion-dashboard.netlify.app/",
+  },
+  {
+    id: 4,
+    name: "Price Tracker",
+    description:
+      "Developed with Next.js and Bright Data’s WebUnlocker for efficient product data scraping. Assists users with informed purchasing decisions through price drop notifications and competitor insights.",
+    image: '/priceTracker.png',
+    link: "https://price-tracker-webapp.vercel.app/",
+  },
+  {
+    id: 5,
+    name: "Parshotam Electronics",
+    description:
+      "Design and Developed a stunning e-commerce platform with a camouflage theme that’s sure to leave an impression. Introduced an interactive image observer paired with a lazy image loader, enhancing the user experience to new heights.",
+    image: '/Parshotam.png',
+    link: "https://parshotamelectronics.in/",
+  },
+  {
+    id: 6,
+    name: "CollegeMart Platform",
+    description:
+      "Utilized modern web development tools and technologies, including CSS preprocessors, state management libraries, and automated testing frameworks, to ensure the application was robust, scalable, and maintainable.",
+    image: '/collegemart.png',
+    link: "https://collegemart.netlify.app/",
+  },
+  {
+    id: 7,
+    name: "DevPuja Platform",
+    description:
+      "Usin Next.js, Tailwind CSS, Redux, and TypeScript implement client-side logic, optimized website performance, and reduced loading times. Enabled dynamic data fetching and filtering, simplifying product discovery for users.",
+    image: '/devpuja.png',
+    link: "https://devpoojan.in/",
+  },
+  {
+    id: 8,
+    name: "Chintan Website",
+    description:
+      "Working on developing a responsive web application for the Chintan Pratisthan  of my institute using Next.js framework. Translating wireframes and designs into pixel-perfect UI with meticulous attention to detail.",
+    image: '/Chintan.png',
+    link: "https://chintanpratisthan.in/",
+  },
+  {
+    id: 9,
+    name: "Casa LifeStyle",
+    description:
+      "Design and Developed the website and ensure website accessibility and responsiveness by optimizing the application’s performance through the use of caching, lazy loading, and image optimization techniques",
+    image: '/Casa.png',
+    link: "http://casalifestyle.com/",
+  },
+  {
+    id: 10,
+    name: "Dawin Website",
+    description:
+      "Built a Modern responsive Website for my Japanese client using React.js, TailwindCSS, EmailJS, React-scroll with React libraries for an engaging user experience.",
+    image: '/Dawin.png',
+    link: "https://dawinweb.netlify.app/",
+  },
+  {
+    id: 11,
+    name: "Rectangle Technologies Website",
+    description:
+      "Design and Developed a Modern responsive Website for rectangle technologies and demonstrated my ability to work independently and as part of a team, exhibiting strong problem-solving, teamwork, and communication skills.",
+    image: '/Rectangle.png',
+    link: "https://rectangletechnologies.com/",
+  },
+  {
+    id: 12,
+    name: "Saatvik Exim Website",
+    description:
+      "Design and Developed a Modern responsive Website for Saatvik Exim Surat Based Textile Manufacuring company as per the client needs.",
+    image: '/Saatvi.png',
+    link: "https://saatvikexim.in/",
+  },
+  {
+    id: 13,
+    name: "EES Website",
+    description:
+      "Design and Developed a Modern responsive Website for Electrical Engineering Society Student Chapter of my institute and demonstrated my ability to Lead and work with the team.",
+    image: 'EES.png',
+    link: "https://harshvardhan614.github.io/EES_website/",
+  },
+  {
+    id: 14,
+    name: "Bloom Ecommerce Design",
+    description:
+      "E-commerce Website Design Freelance Project in which I designed: Home, Product, Categories,  About Us & Contact Us, Checkout & Order Confirmation, Login/Signup page, Billing Page, and View Cart page",
+    image: '/bloom.png',
+    link: "https://drive.google.com/drive/u/1/folders/15_J4s-KqWiSFpVV8Y-fK249WACcJtUCh/",
+  },
+  {
+    id: 15,
+    name: "Shaatra Magazine",
+    description:
+      " I served the Research and Innovation Affairs Council (RIAC) as a Graphic Designer. While there, I designed the prestigious 'Shaastra 6th Edition' magazine.",
+    image: '/Shaatra.png',
+    link: "https://online.fliphtml5.com/yiyra/qwcp/#p=1/",
+  },
+  {
+    id: 16,
+    name: "Samukh Magazine",
+    description:
+      "Working as a Lead Designer for Hindicell, I had the privilege of designing the stunning magazine: 'Sammukh 13th Edition' which we launched in January 2022.",
+    image: '/Samukh.png',
+    link: "https://online.fliphtml5.com/yiyra/pfug/#p=1/",
+  },
+  {
+    id: 17,
+    name: "Dhavni Magazine",
+    description:
+      "Working as a Junior Designer for Hindicell, I had the privilege of designing the stunning magazine: 'Dhvani 12th Edition' which we launched in August 2021.",
+    image: '/Dhavni.png',
+    link: "https://online.fliphtml5.com/yiyra/jfrx/#p=1/",
+  },
+];
+
+
 export const BtnList = [
   { label: "Home", link: "/", icon: "home", newTab: false },
   { label: "About", link: "/about", icon: "about", newTab: false },
@@ -112,7 +252,7 @@ export const BtnList = [
     link: "https://twitter.com/HARSHVA99743638",
     icon: "twitter",
     newTab: true,
-  },  
+  },
 ];
 
 // export const skills = [
@@ -200,7 +340,7 @@ export const experiences = [
 export const Frontend_skill = [
   {
     skill_name: "Html 5",
-    Image: "/html.png",   
+    Image: "/html.png",
   },
   {
     skill_name: "Css",
@@ -293,7 +433,6 @@ export const Full_stack = [
     skill_name: "Figma",
     Image: "/figmal.png",
   },
-
 ];
 
 export const Tools = [
@@ -317,5 +456,3 @@ export const Other_skill = [
     Image: "/threejs.svg",
   },
 ];
-
-
