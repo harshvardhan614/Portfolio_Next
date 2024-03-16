@@ -103,7 +103,7 @@ export const projects = [
     name: "LST Capital Website",
     description:
       "Built a Modern responsive Website LSTCapital.in using React.js, TailwindCSS with 3D components for an engaging experience. Ensured excellent SEO practices were implemented, improving website visibility and search engine rankings.",
-    image: "/lst.png",
+    image: "/lstw.png",
     link: "https://lstcapital.in/",
   },
   {
@@ -135,7 +135,7 @@ export const projects = [
     name: "CollegeMart Platform",
     description:
       "Utilized modern web development tools and technologies, including CSS preprocessors, state management libraries, and automated testing frameworks, to ensure the application was robust, scalable, and maintainable.",
-    image: '/collegemart.png',
+    image: '/collegemarts.png',
     link: "https://collegemart.netlify.app/",
   },
   {
