@@ -19,7 +19,7 @@ const ProjectList = ({ projects }) => {
       variants={container}
       initial="hidden"
       animate="show"
-      className="md:mt-10 mt-5 flex flex-wrap gap-6 px-2 mx-auto items-center justify-center"
+      className=" mt-5 flex flex-wrap gap-6 px-2 mx-auto items-center justify-center"
     >
       {projects.map((project, index) => {
         return <ProjectLayout key={index} {...project} />;

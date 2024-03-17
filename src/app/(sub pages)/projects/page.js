@@ -1,10 +1,11 @@
 import Image from "next/image";
 import bg from "../../../../public/background/projects-background.png";
 import ProjectList from "@/components/projects";
-import { projects} from "../../data";
+import { projects } from "../../data";
 import RenderModel from "@/components/RenderModel";
 // import Staff from "@/components/models/Staff";
 import dynamic from "next/dynamic";
+import ComputersCanvas from "@/components/canvas/Computers";
 
 const Staff = dynamic(() => import("@/components/models/Staff"), {
   ssr: false,
@@ -25,13 +26,25 @@ export default function Home() {
         sizes="100vw"
       />
 
-      <ProjectList projects={projects} />
+      <div className='xl:flex-1 w-full h-[400px] cursor-pointer py-10 z-10'>
+      <ComputersCanvas />
+    </div>
 
-      <div className="flex items-center justify-center fixed  top-16  lg:top-20 -translate-x-1/2 lg:translate-x-0 -z-10 left-1/2 lg:-left-24 h-screen">
-        <RenderModel>
-          <Staff />
-        </RenderModel>
-      </div>
+      
+
+      <div className="flex flex-col items-center justify-center space-y-4 w-full sm:w-3/4 my-10">
+      <h1 className="text-accent font-semibold text-center text-4xl  capitalize ">
+        My Projects
+      </h1>
+      <p className="text-center font-light text-sm xs:text-base">
+        Have a project in mind or just want to say hello? I am always excited to
+        hear about new opportunities and collaborations. Let's create something
+        amazing together!
+      </p>
+      </div>      
+
+      <ProjectList projects={projects} />
+     
     </>
   );
 }
