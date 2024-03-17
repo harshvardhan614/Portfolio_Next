@@ -2,14 +2,8 @@ import Image from "next/image";
 import bg from "../../../../public/background/projects-background.png";
 import ProjectList from "@/components/projects";
 import { projects } from "../../data";
-import RenderModel from "@/components/RenderModel";
-// import Staff from "@/components/models/Staff";
 import dynamic from "next/dynamic";
 import ComputersCanvas from "@/components/canvas/Computers";
-
-const Staff = dynamic(() => import("@/components/models/Staff"), {
-  ssr: false,
-});
 
 export const metadata = {
   title: "Projects",
