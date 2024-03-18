@@ -2,7 +2,6 @@ import Image from "next/image";
 import bg from "../../../../public/background/office.jpg";
 import AboutDetails from "@/components/about";
 import dynamic from "next/dynamic";
-// import CubeCanvas from "@/components/canvas/Cube";
 const CubeCanvas = dynamic(() => import("@/components/canvas/Cube"), {
   ssr: false,
 });

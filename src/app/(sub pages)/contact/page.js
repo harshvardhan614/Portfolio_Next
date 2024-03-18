@@ -1,6 +1,5 @@
 import Image from "next/image";
 import bg from "../../../../public/background/contact.png";
-
 import ContactForm from "@/components/contact/ContactForm";
 import ContactDetail from "@/components/contact/ContactDetail";
 

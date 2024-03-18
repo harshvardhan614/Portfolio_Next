@@ -30,16 +30,7 @@ export default function Form() {
 
   const sendEmail = (params) => {
     const toastId = toast.loading("Sending your message, please wait...");
-
-    // toast.info(
-    //   "Form submissions are demo-only here. Please checkout the final code repo to enable it. If you want to connect you can reach out to me via codebucks27@gmail.com.",
-    //   {
-    //     id: toastId,
-    //   }
-    // );
-
-    // comment out the above toast.info and uncomment the below code to enable emailjs
-
+    
     emailjs
       .send(
         process.env.NEXT_PUBLIC_SERVICE_ID,
@@ -75,9 +66,10 @@ export default function Form() {
 
   const onSubmit = (data) => {
     const templateParams = {
-      to_name: "CodeBucks",
+      to_name: "Harshvardhan rathore",
       from_name: data.name,
       reply_to: data.email,
+      to_email: "rharshvardhan614@gmail.com",
       message: data.message,
     };
 
@@ -87,7 +79,7 @@ export default function Form() {
   return (
     <div className="mt-5">      
       <motion.p className="inline-block blue-gradient px-2 py-1 text-l ">Get in touch</motion.p>
-      <motion.h3 className="text-3xl font-bold text-[#FEFE5B] sm:text-5xl">Contact.</motion.h3>
+      <motion.h3 className="text-3xl font-bold text-[#FEFE5B] sm:text-5xl mb-4">Contact.</motion.h3>
       <Toaster richColors={true} />
       <motion.form
         variants={container}
@@ -155,7 +147,7 @@ export default function Form() {
               message: "Message should be less than 500 characters",
             },
             minLength: {
-              value: 30,
+              value: 20,
               message: "Message should be more than 30 characters",
             },
           })}
