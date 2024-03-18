@@ -4,6 +4,8 @@ import clsx from "clsx";
 import FireFliesBackground from "@/components/FireFliesBackground";
 import Sound from "@/components/Sound";
 import ResumeBtn from "@/components/ResumeBtn";
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Inter({
   subsets: ["latin"],
@@ -29,6 +31,8 @@ export default function RootLayout({ children }) {
         )}
       >
         {children}
+        <Analytics />
+        <SpeedInsights />
         <FireFliesBackground />
         <Sound />
         <ResumeBtn />
