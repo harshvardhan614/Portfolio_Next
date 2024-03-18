@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bg from "../../../../public/background/contact-background.png";
+import bg from "../../../../public/background/contact.png";
 
 import ContactForm from "@/components/contact/ContactForm";
 import ContactDetail from "@/components/contact/ContactDetail";
@@ -16,7 +16,7 @@ export default function Contact() {
         alt="Next.js Portfolio website's contact page background image"
         priority
         sizes="100vw"
-        className="-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-50"
+        className="-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-40"
       />
 
       <article className="relative w-full flex flex-col items-center justify-center mt-0 sm:mt-10 py-8 sm:py-0 space-y-10">

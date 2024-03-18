@@ -7,6 +7,7 @@ import CanvasLoader from "./Loader";
 function MyRender({ children}) {
   return (
     <Canvas
+    className="-z-10"
       frameloop="demand"
       shadows
       camera={{ position: [0, 2, 5], fov: 30 }}

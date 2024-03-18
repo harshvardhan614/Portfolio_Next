@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bg from "../../../../public/background/projects-background.png";
+import bg from "../../../../public/background/laptop.jpg";
 import ProjectList from "@/components/projects";
 import { projects } from "../../data";
 import dynamic from "next/dynamic";

@@ -17,7 +17,7 @@ const AboutDetails = () => {
           Crafting Digital Experiences with Code
           </h2>
           <p className="font-light text-xs sm:text-sm md:text-base text-justify">
-          I'm Harshvardhan Rathore ✨, a Final Year B.Tech student at NIT Surat, with a passion for becoming a Full Stack Developer and UX/UI Designer. With over 10 freelance projects, 3 Interships(7+ months) as a Developer and 3 college startup collaborations under my belt, I excel at creating user-friendly interfaces and top-notch web applications from scratch. <br/>
+          I'm Harshvardhan Rathore ✨, a Final Year B.Tech student at NIT Surat, passionate about becoming a Full Stack Developer and UX/UI Designer. With over 10 freelance projects, 3 Internships (7+ months) as a Developer, and 3 college startup collaborations, I excel at creating user-friendly interfaces and top-notch web applications from scratch.  <br/>
           As a Tech Stack Master, I am proficient in JavaScript, TypeScript, ReactJS, NextJS, Node.js, SQL (including MongoDB), NoSQL databases, and various UI frameworks like Syncfusion, Material UI, and Tailwind CSS. My expertise lies in responsive design, ensuring optimal performance and exceptional user experience across all devices.
           </p>
         </ItemLayout>
