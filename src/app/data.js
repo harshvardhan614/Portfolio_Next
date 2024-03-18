@@ -183,7 +183,7 @@ export const projects = [
     name: "Saatvik Exim Website",
     description:
       "Design and Developed a Modern responsive Website for Saatvik Exim Surat Based Textile Manufacuring company as per the client needs.",
-    image: '/Saatvi.png',
+    image: '/saatvi.png',
     link: "https://saatvikexim.in/",
   },
   {

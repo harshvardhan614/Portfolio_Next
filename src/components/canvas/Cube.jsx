@@ -7,11 +7,11 @@ import CanvasLoader from "../Loader";
 
 const CubeCanvas = React.memo(function CubeCanvas() {
   return (
-    <div className="h-[70vh] z-20 cursor-pointer">
+    <div className="w-full h-[70vh] z-20 cursor-pointer">
       <Canvas className="w-[320px] xs:w-[400px] md:w-[450px]">
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false}/>
-        <ambientLight intensity={0.5} />
+        <ambientLight intensity={1} />
         <directionalLight position={[2, 1, 1]} />
         <pointLight intensity={1} />
         <Cube />
