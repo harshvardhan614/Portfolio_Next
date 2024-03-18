@@ -13,14 +13,12 @@ const inter = Inter({
 export const metadata = {
   title: {
     template:
-      "Next.js Portfolio Created with Three.js and Tailwind CSS | %s | CodeBucks",
-    default:
-      "Next.js Portfolio Created with Three.js and Tailwind CSS by CodeBucks",
+      "Portfolio | Harshvardhan Rathore - Full Stack Developer & UX/UI Designer",
+    default: "Harshvardhan Rathore - Full Stack Developer & UX/UI Designer",
   },
   description:
-    "A unique creative portfolio designed by CodeBucks with cutting-edge technologies like Next.js, Tailwind CSS, Three.js, and Framer Motion. Experience the art of modern web development firsthand. Checkout CodeBucks on youtube.",
+    "Hello! I'm Harshvardhan Rathore, a Final Year B.Tech student at NIT Surat passionate about building user-friendly interfaces and top-notch web applications. With experience in freelance projects, internships, and startup collaborations, I excel in both front-end and back-end development.  I'm a Tech Stack Master proficient in JavaScript, TypeScript, ReactJS, NextJS, Node.js, mongodb and various NoSQL databases and various UI frameworks. Let's craft something amazing together!",
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
