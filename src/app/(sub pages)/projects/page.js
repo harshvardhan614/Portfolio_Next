@@ -32,7 +32,7 @@ export default function Home() {
       </h1>
       <p className="text-center font-light text-sm xs:text-base">
         Have a project in mind or just want to say hello? I am always excited to
-        hear about new opportunities and collaborations. Let's create something
+        hear about new opportunities and collaborations. Let&apos;s create something
         amazing together!
       </p>
       </div>      
