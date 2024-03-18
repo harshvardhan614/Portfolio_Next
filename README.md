@@ -1,99 +1,64 @@
-# Next.js Creative Portfolio Tutorial: Build Amazing Portfolio Website with Next.js, Three.js, and Tailwind CSS 🔥
+# Harshvardhan Rathore's Portfolio Website
 
-![GitHub stars](https://img.shields.io/github/stars/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
-![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
+Welcome to my portfolio website showcasing my skills, projects, and experience as a Full Stack Developer and UX/UI Designer.
 
-This repository contains **starter code** for Next.js Creative Portfolio website built using Next.js and Three.js. <br />
+## Introduction
 
-For Demo checkout following link👇: <br />
-[Nextjs Creative Portfolio Website Demo](https://next-js-creative-portfolio-website.vercel.app/) <br />
+I'm Harshvardhan Rathore, a Final Year B.Tech student at NIT Surat, passionate about creating user-friendly interfaces and top-notch web applications from scratch. With over 10 freelance projects, 3 Internships (7+ months) as a Developer, and 3 college startup collaborations, I have honed my skills in JavaScript, TypeScript, ReactJS, NextJS, Node.js, SQL (including MongoDB), NoSQL databases, and various UI frameworks like Syncfusion, Material UI, and Tailwind CSS.
 
-Final Code👇: <br />
-➡ Link 💚: [Nextjs Creative Portfolio Website Final Code](https://github.com/codebucks27/Next.js-Creative-Portfolio-Website) <br />
-<!--- ➡ Link 2💚(If you want to support): [Nextjs Creative Portfolio Website Final Code](https://codebucks.gumroad.com/l/ypzlu) <br /> --->
 
-If you want to learn how to create it please follow below tutorial👇: <br />
-➡ Tutorial Link 💚: [Personal Portfolio Website with Next.js, Three.js & Tailwind CSS Tutorial](https://youtu.be/T5t46vuW8fo) 
-[![YouTube Video Views](https://img.shields.io/youtube/views/T5t46vuW8fo
-)](https://youtu.be/T5t46vuW8fo) <br />
+## Installation
 
-💚 Checkout my personal website [DevDreaming](https://devdreaming.com) <br />
+1. Clone the repository: `git clone https://github.com/harshvardhan614/Portfolio_Next .git`
+2. Navigate to the project directory: `cd Portfolio_Next `
+3. Install the dependencies: `npm install`
 
----
-# ⭐DO NOT FORGET TO STAR THIS REPO⭐
----
+## Usage
 
-## Images of The Portfolio Website:
+1. Start the development server: `npm run dev`
+2. Open your browser and visit `http://localhost:3000` to view the website.
 
-#### Home
-![Nextjs Creative Portfolio Website](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Home-desktop.png)
+## Features
 
-#### About
-![Nextjs Creative Portfolio Website About Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/About-desktop-full.png)
+- **Responsive Design:** The website is designed to provide an optimal viewing experience across various devices, ensuring usability and accessibility.
+  
+- **Interactive 3D Elements:** Utilizing Three.js and React-Three-Fiber, the website includes interactive 3D elements that enhance user engagement and visual appeal.
+  
+- **Smooth Animations:** Framer Motion is used to create smooth and fluid animations, adding a touch of dynamism to the user interface.
+  
+- **Form Handling:** React Hook Form is implemented for efficient form handling, providing a seamless user experience during data input and submission.
+  
+- **Dynamic Content:** Leveraging Next.js, the website supports server-side rendering and static site generation, allowing for fast loading times and dynamic content updates.
+  
+- **Email Integration:** Integration with EmailJS enables seamless email sending directly from the browser, facilitating communication with users and clients.
+  
+- **Optimized Performance:** The website is optimized for performance, with code splitting, lazy loading, and other techniques to ensure fast page load times and smooth navigation.
+  
+- **Accessibility:** Accessibility features are implemented to ensure that all users, including those with disabilities, can access and use the website effectively.
+  
+- **SEO Friendly:** Best practices for search engine optimization (SEO) are followed, including meta tags, structured data, and other optimizations to improve visibility and ranking in search engine results.
 
-#### Projects
-![Next.js Creative Portfolio Website Projects Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Projects-desktop.png)
 
-#### Contact
-![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Contact-desktop.png)
+## Dependencies
 
-#### Mobile Version
-![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Home-mobile.png)
-![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/About-mobile.png)
-![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Projects-mobile.png)
-![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Contact-mobile.png)
+The following dependencies are required for this project:
 
-## Resources Used in This Project
+- [@emailjs/browser](https://www.npmjs.com/package/@emailjs/browser): Email API for sending emails from the browser.
+- [@react-three/drei](https://www.npmjs.com/package/@react-three/drei): Collection of useful helpers and abstractions for React Three Fiber.
+- [@react-three/fiber](https://www.npmjs.com/package/@react-three/fiber): A React renderer for Three.js.
+- [clsx](https://www.npmjs.com/package/clsx): A tiny utility for constructing class names dynamically in JavaScript.
+- [framer-motion](https://www.npmjs.com/package/framer-motion): A library for creating animations in React applications.
+- [lucide-react](https://www.npmjs.com/package/lucide-react): A library of SVG icons for React.
+- [maath](https://www.npmjs.com/package/maath): A mathematical utility library for JavaScript.
+- [next](https://nextjs.org/): A React framework for server-side rendering and static site generation.
+- [react](https://reactjs.org/): A JavaScript library for building user interfaces.
+- [react-dom](https://reactjs.org/docs/react-dom.html): Provides DOM-specific methods that can be used at the top level of your app.
+- [react-hook-form](https://www.npmjs.com/package/react-hook-form): Performant form validation library for React.
+- [react-intersection-observer](https://www.npmjs.com/package/react-intersection-observer): React component for the Intersection Observer API.
+- [react-vertical-timeline-component](https://www.npmjs.com/package/react-vertical-timeline-component): Vertical timeline component for React.
+- [sonner](https://www.npmjs.com/package/sonner): A lightweight library for working with sound in JavaScript.
+- [three](https://threejs.org/): A 3D library that makes WebGL simpler.
 
-#### 3D Models
+## License
 
-- ["Tim Mckee - Boy Wizard"](https://skfb.ly/6YATu) by [elbertwithane is licensed under Creative Commons Attribution ](http://creativecommons.org/licenses/by/4.0/).
-- ["Stylized wizard hat"](https://skfb.ly/ozxOQ) by [Enkarra is licensed under Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
-- ["Wizard Staff"](https://skfb.ly/6QYZw) by [Toymancer Studio is licensed under Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
-
-#### AI Images
-
-- Created with the help of [Playground AI](https://playgroundai.com/)
-
-#### Github Stats & Details
-
-- [Github ReadMe Stats](https://github.com/anuraghazra/github-readme-stats)
-- [Skills Icons](https://github.com/tandpfun/skill-icons)
-- [Github Readme Streak Stats](https://github.com/denvercoder1/github-readme-streak-stats)
-
-#### Development Resources
-
-- Fonts from [Google Fonts](https://fonts.google.com/) <br />
-- Icons from [Lucide Icons](https://lucide.dev/) <br />
-- Notifications from [Sonner](https://sonner.emilkowal.ski/) <br />
-- Form created using [react-hook-form](https://react-hook-form.com/) <br />
-- Animations using [framer-motion](https://www.framer.com/motion/) <br />
-- Emails using [Emailjs](https://www.emailjs.com/) <br />
-- Convert 3d models to JSX using [Gltf JSX](https://github.com/pmndrs/gltfjsx)
-
-#### Audio 
-
-- Music by <a href="https://pixabay.com/users/shidenbeatsmusic-25676252/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20772">Shiden Beats Music</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20772">Pixabay</a>
-
----
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, install the dependencies and run the development server:
-
-```bash
-npm run install # to install all dependencies
-
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
