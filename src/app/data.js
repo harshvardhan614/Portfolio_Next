@@ -271,7 +271,7 @@ export const BtnList = [
 
 export const experiences = [
   {
-    title: "Software Developer Developer",
+    title: "Software Developer Intern",
     company_name: "LST Capital",
     icon: "/lst.png",
     iconBg: "#FFFFFF",

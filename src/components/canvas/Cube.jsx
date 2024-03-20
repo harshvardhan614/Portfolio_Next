@@ -11,7 +11,7 @@ const CubeCanvas = React.memo(function CubeCanvas() {
       <Canvas className="w-[320px] xs:w-[400px] md:w-[450px]">
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false}/>
-        <ambientLight intensity={1} />
+        <ambientLight intensity={0.75} />
         <directionalLight position={[2, 1, 1]} />
         <pointLight intensity={1} />
         <Cube />

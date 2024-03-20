@@ -4,26 +4,13 @@ Command: npx gltfjsx@6.2.16 MyModal.glb
 */
 "use client";
 
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
-import { useAnimations } from "@react-three/drei";
-import { useFBX } from "@react-three/drei";
 
 export function Avatar(props) {
   const group = useRef();
-  const { nodes, materials } = useGLTF("/models/MyModal.glb");
-  const { animations: GreetingAnimation } = useFBX(
-    "/animations/Standing.fbx"
-  );
-  console.log(GreetingAnimation);
-  GreetingAnimation[0].name = "Greeting";
-
-  const { actions } = useAnimations(GreetingAnimation, group);
-
-  useEffect(() => {
-    console.log(actions);
-    actions["Greeting"].reset().play();
-  }, []);
+  const { nodes, materials } = useGLTF("models/MyModal.glb");
+ 
 
   return (
     <group {...props} ref={group} dispose={null}>
