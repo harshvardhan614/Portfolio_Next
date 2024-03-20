@@ -6,6 +6,7 @@ import Sound from "@/components/Sound";
 import ResumeBtn from "@/components/ResumeBtn";
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import AiModal from "@/components/AiModal";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -36,6 +37,7 @@ export default function RootLayout({ children }) {
         <FireFliesBackground />
         <Sound />
         <ResumeBtn />
+        <AiModal/>
         <div id="my-modal" />
       </body>
     </html>
