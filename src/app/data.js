@@ -335,6 +335,32 @@ export const experiences = [
       "Conducted thorough testing, debugging, and continuous research to deliver optimal user experiences and stay upto date with industry best practices.",
     ],
   },
+  {
+    title: "Final Year B.Tech Project",
+    company_name: "Chemical Department SVNIT, Surat",
+    icon: "/svnitLogo.png",
+    iconBg: "#FFFFFF",
+    date: "Aug 2023 - Dec 2023",
+    points: [
+      "Create report which describes information about the manufacturing process of Resorcinol",
+      "This project's preliminary report attempts to understand the basic principles and processes involved in manufacturing a product at an industrial scale.",
+      "It contains the physical-chemical properties of the various reactants, products, and by-products. Also, various methods of industrial production practiced today are introduced, and a comparison between them. ",
+      "We have designed some types of equipment, including a Sulfonator reactor used in the plant.",
+    ],
+  },
+  {
+    title: "Third Year Seminar Project",
+    company_name: "Chemical Department SVNIT, Surat",
+    icon: "/svnitLogo.png",
+    iconBg: "#FFFFFF",
+    date: "Aug 2022 - Dec 2022",
+    points: [
+      "Create project report which describes information about the Green Hydrogen",
+      "The goal of this seminar report is to accurately compare wind and solar systems, or hybrid ones, for producing green hydrogen on a global scale.",
+      "A prospective, climatically neutral energy source is hydrogen. More than 25 nations have released hydrogen roadmaps till 2022.",
+      "Alternative fuel production using carbon dioxide and hydrogen, utilization of hydrogen in transportation.",
+    ],
+  },
 ];
 
 export const Frontend_skill = [
