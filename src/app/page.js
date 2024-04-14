@@ -1,8 +1,8 @@
 import Image from "next/image";
 import bg from "../../public/background/home.png";
 import Navigation from "@/components/navigation";
-import MyRender from "@/components/MyRender";
-import { Show } from "@/components/Show";
+// import MyRender from "@/components/MyRender";
+// import { Show } from "@/components/Show";
 
 
 export default function Home() {
@@ -20,9 +20,9 @@ export default function Home() {
       <div className="w-full h-screen">
         <Navigation />     
 
-        <MyRender>
+        {/* <MyRender>
           <Show/>
-        </MyRender>
+        </MyRender> */}
 
       </div>
     </main>

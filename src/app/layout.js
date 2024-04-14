@@ -7,6 +7,7 @@ import ResumeBtn from "@/components/ResumeBtn";
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import AiModal from "@/components/AiModal";
+import HomeBtn from "@/components/HomeBtn";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -35,10 +36,11 @@ export default function RootLayout({ children }) {
         <Analytics />
         <SpeedInsights />
         <FireFliesBackground />
+        <HomeBtn />
         <Sound />
         <ResumeBtn />
         <AiModal/>
-        <div id="my-modal" />
+        {/* <div id="my-modal" /> */}
       </body>
     </html>
   );

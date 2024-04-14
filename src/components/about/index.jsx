@@ -37,7 +37,11 @@ const AboutDetails = () => {
             2+{" "}
             <sub className="font-semibold text-base">Years of Experience</sub>
           </p>
-        </ItemLayout>        
+        </ItemLayout>  
+
+         <ItemLayout className={"col-span-full"}>
+          <Skillicon/>
+        </ItemLayout>       
 
          <ItemLayout
           className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
@@ -66,11 +70,8 @@ const AboutDetails = () => {
             alt="504 Error! Reload again."
             loading="lazy"
           />
-        </ItemLayout>  */}
+        </ItemLayout>  */}        
         
-         <ItemLayout className={"col-span-full"}>
-          <Skillicon/>
-        </ItemLayout> 
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <img
