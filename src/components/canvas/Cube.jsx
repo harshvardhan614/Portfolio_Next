@@ -16,7 +16,7 @@ const CubeCanvas = React.memo(function CubeCanvas() {
         <pointLight intensity={1} />
         <Cube />
         </Suspense>
-        <Environment preset="dawn" />
+        <Environment preset="night" />
       </Canvas>
     </div>
   );
