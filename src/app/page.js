@@ -1,10 +1,7 @@
 import Image from "next/image";
 import bg from "../../public/background/home.png";
 import Navigation from "@/components/navigation";
-// import MyRender from "@/components/MyRender";
-// import { Show } from "@/components/Show";
-
-
+import PlayerCanvas from "@/components/models/Player";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between relative">
@@ -20,10 +17,9 @@ export default function Home() {
       <div className="w-full h-screen">
         <Navigation />     
 
-        {/* <MyRender>
-          <Show/>
-        </MyRender> */}
-
+        <div className="-z-20 w-full h-screen cursor-pointer">
+          <PlayerCanvas />
+        </div>
       </div>
     </main>
   );

@@ -10,7 +10,7 @@ const ResumeBtn = () => {
       initial={{ scale: 0 }}
       animate={{ scale: 1 }}
       transition={{ delay: 1 }}
-      href={"/Harshvardhan_Resume_Frontend.pdf"}
+      href={"/Harshvardhan_Resume.pdf"}
       target={"_blank"}
       className="text-foreground  rounded-full flex items-center justify-center
         custom-bg fixed bottom-4 left-2.5 xs:left-4 w-fit self-start z-50
