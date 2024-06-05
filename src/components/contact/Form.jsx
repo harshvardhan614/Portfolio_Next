@@ -143,12 +143,12 @@ export default function Form() {
           {...register("message", {
             required: "This field is required!",
             maxLength: {
-              value: 500,
-              message: "Message should be less than 500 characters",
+              value: 2000,
+              message: "Message should be less than 2000 characters",
             },
             minLength: {
               value: 20,
-              message: "Message should be more than 30 characters",
+              message: "Message should be more than 20 characters",
             },
           })}
           className="w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 custom-bg"
