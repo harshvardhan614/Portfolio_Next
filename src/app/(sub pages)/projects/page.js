@@ -2,7 +2,6 @@ import Image from "next/image";
 import bg from "../../../../public/background/laptop.jpg";
 import ProjectList from "@/components/projects";
 import { projects } from "../../data";
-import dynamic from "next/dynamic";
 import ComputersCanvas from "@/components/canvas/Computers";
 
 export const metadata = {

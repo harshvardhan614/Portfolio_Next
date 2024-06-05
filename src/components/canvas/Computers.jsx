@@ -1,61 +1,67 @@
-"use client"
+"use client";
 
-import {Suspense} from 'react'
-import { Canvas } from '@react-three/fiber';
-import {OrbitControls, Preload, useGLTF} from '@react-three/drei'
-import CanvasLoader from '../Loader'
+import {
+  Preload,
+  useGLTF,
+  OrbitControls,
+  PerspectiveCamera,
+} from "@react-three/drei";
+import * as THREE from "three";
+import { Canvas } from "@react-three/fiber";
+import { Suspense } from "react";
 
-const  Computers = () => {
-  
-    const computer = useGLTF('desktop_pc/scene.gltf')
+import CanvasLoader from "../Loader";
+import ComputerModel from "../models/ComputerModel";
 
-  return (
-    <mesh>
-      <hemisphereLight intensity={0.15}
-      groundColor='black' />
-      <pointLight intensity={1} />
-      <spotLight 
-       position={[-20, 50 ,10]}
-       angle={0.12}
-       penumbra={1}
-       intensity={1}
-       castShadow
-       shadow-mapSize={1024}
-      />
-      <primitive 
-        object={computer.scene}
-        scale={1.35}
-        position={ [0, -3, -2.2]} //array of x,y,z axis values
-        rotation={[-0.01, -0.2, -0.1]}
-      />
-    </mesh>
-  )
-}
-
-const ComputersCanvas = () => {
- 
+function Computers() {
+  const { nodes, materials } = useGLTF("/desktop_pc/scene.gltf");
 
   return (
-    <Canvas
-    frameLoop="demand"
-    shadows
-    camera ={{ position : [20, 3, 5,], fov:25 }}
-    gl={{ preserveDrawingBuffer : true }}  
-    >
-      <Suspense fallback={<CanvasLoader/>}> 
-      {/* canvas loader component we use to stop page breaking when model loads */}
-        <OrbitControls 
+    <>
+      <hemisphereLight intensity={1} groundColor="black" />
+      <ambientLight intensity={0.65} />
+      <spotLight intensity={1} position={[0, 1.5, 0.7]} angle={0.12} />
+      <PerspectiveCamera makeDefault position={[0, 0, -8]} fov={30} />
+      <pointLight intensity={2} position={[1, 1.3, 0]} color={"#804dee"} />
+      <pointLight intensity={2} position={[-1, 1.3, 1]} color={"#804dee"} />
+      <OrbitControls
         enableZoom={false}
         maxPolarAngle={Math.PI / 2}
         minPolarAngle={Math.PI / 2}
-        />
-        <Computers />
-      </Suspense>
-
-      <Preload all/>
-
-    </Canvas>
-  )
+        enableDamping={true}
+        dampingFactor={0.05}
+        enablePan={false}
+        autoRotateSpeed={4}
+        autoRotate={ true}
+        makeDefault
+      />
+      <ComputerModel
+        nodes={nodes}
+        materials={materials}
+        scale={0.5 }
+        position={[-0.5, -0.5, 0]}
+        rotation={[-0.01, 1.6, -0.1]}
+      />
+    </>
+  );
 }
 
-export default ComputersCanvas
+function ComputersCanvas() {
+  return (
+    <Canvas
+      dpr={[1, 2]}
+      camera={{ position: [20, 3, 5], fov: 25 }}
+      gl={{
+        outputColorSpace: THREE.SRGBColorSpace,
+        alpha: true,
+      }}
+    >
+      <Suspense fallback={<CanvasLoader />}>
+        <Computers  />
+      </Suspense>
+      <Preload all />
+    </Canvas>
+  );
+}
+
+export default ComputersCanvas;
